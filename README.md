@@ -4,19 +4,18 @@ bee
 
 Bee is a command-line tool facilitating development of Beego-based application.
 
-[![Build Status](https://img.shields.io/travis/beego/bee.svg?branch=master&label=master)](https://travis-ci.org/beego/bee)
-[![Build Status](https://img.shields.io/travis/beego/bee.svg?branch=develop&label=develop)](https://travis-ci.org/beego/bee)
+This is a fork of: https://github.com/beego/bee
 
 ## Requirements
 
-- Go version >= 1.13
+- Go version >= 1.21
 
 ## Installation
 
 To install or update `bee` use the `go install` command:
 
 ```bash
-go install github.com/beego/bee/v2@latest
+go install github.com/stefantalpalaru/bee/v2@latest
 ```
 
 ## Then you can add `bee` binary to PATH environment variable in your `~/.bashrc` or `~/.bash_profile` file:
@@ -30,13 +29,13 @@ export PATH=$PATH:<your_main_gopath>/bin
 To install `bee` use the `go get` command:
 
 ```bash
-go get github.com/beego/bee/v2
+go get github.com/stefantalpalaru/bee/v2
 ```
 
 > If you already have `bee` installed, updating `bee` is simple:
 
 ```bash
-go get -u github.com/beego/bee/v2
+go get -u github.com/stefantalpalaru/bee/v2
 ```
 
 ## Basic commands
@@ -350,7 +349,7 @@ Breakpoint 1 set at 0x40100f for main.main() ./main.go:8
 > main.main() ./main.go:8 (hits goroutine(1):1 total:1) (PC: 0x40100f)
      3:	import (
      4:		_ "github.com/user/myapp/routers"
-     5:		beego "github.com/beego/beego/v2/server/web"
+     5:		beego "github.com/stefantalpalaru/beego/v2/server/web"
      6:	)
      7:	
 =>   8:	func main() {
