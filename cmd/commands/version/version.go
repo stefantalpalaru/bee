@@ -9,10 +9,10 @@ import (
 	"os"
 	"runtime"
 
-	"github.com/beego/bee/v2/cmd/commands"
-	"github.com/beego/bee/v2/config"
-	beeLogger "github.com/beego/bee/v2/logger"
-	"github.com/beego/bee/v2/logger/colors"
+	"github.com/stefantalpalaru/bee/v2/cmd/commands"
+	"github.com/stefantalpalaru/bee/v2/config"
+	beeLogger "github.com/stefantalpalaru/bee/v2/logger"
+	"github.com/stefantalpalaru/bee/v2/logger/colors"
 )
 
 const verboseVersionBanner string = `%s%s______

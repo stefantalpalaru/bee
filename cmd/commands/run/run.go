@@ -20,11 +20,11 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/beego/bee/v2/cmd/commands"
-	"github.com/beego/bee/v2/cmd/commands/version"
-	"github.com/beego/bee/v2/config"
-	beeLogger "github.com/beego/bee/v2/logger"
-	"github.com/beego/bee/v2/utils"
+	"github.com/stefantalpalaru/bee/v2/cmd/commands"
+	"github.com/stefantalpalaru/bee/v2/cmd/commands/version"
+	"github.com/stefantalpalaru/bee/v2/config"
+	beeLogger "github.com/stefantalpalaru/bee/v2/logger"
+	"github.com/stefantalpalaru/bee/v2/utils"
 )
 
 var CmdRun = &commands.Command{

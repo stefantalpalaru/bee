@@ -16,9 +16,9 @@ package beegopro
 import (
 	"strings"
 
-	"github.com/beego/bee/v2/cmd/commands"
-	"github.com/beego/bee/v2/internal/app/module/beegopro"
-	"github.com/beego/bee/v2/logger"
+	"github.com/stefantalpalaru/bee/v2/cmd/commands"
+	"github.com/stefantalpalaru/bee/v2/internal/app/module/beegopro"
+	"github.com/stefantalpalaru/bee/v2/logger"
 )
 
 var CmdBeegoPro = &commands.Command{

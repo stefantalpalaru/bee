@@ -6,14 +6,14 @@ import (
 	"path"
 	"strings"
 
-	"github.com/beego/bee/v2/logger/colors"
+	"github.com/stefantalpalaru/bee/v2/logger/colors"
 
-	"github.com/beego/bee/v2/cmd/commands"
-	"github.com/beego/bee/v2/cmd/commands/api"
-	"github.com/beego/bee/v2/cmd/commands/version"
-	"github.com/beego/bee/v2/generate"
-	beeLogger "github.com/beego/bee/v2/logger"
-	"github.com/beego/bee/v2/utils"
+	"github.com/stefantalpalaru/bee/v2/cmd/commands"
+	"github.com/stefantalpalaru/bee/v2/cmd/commands/api"
+	"github.com/stefantalpalaru/bee/v2/cmd/commands/version"
+	"github.com/stefantalpalaru/bee/v2/generate"
+	beeLogger "github.com/stefantalpalaru/bee/v2/logger"
+	"github.com/stefantalpalaru/bee/v2/utils"
 )
 
 var CmdHproseapp = &commands.Command{

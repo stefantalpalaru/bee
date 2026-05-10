@@ -8,9 +8,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/beego/bee/v2/internal/pkg/command"
-	"github.com/beego/bee/v2/internal/pkg/utils"
-	beeLogger "github.com/beego/bee/v2/logger"
+	"github.com/stefantalpalaru/bee/v2/internal/pkg/command"
+	"github.com/stefantalpalaru/bee/v2/internal/pkg/utils"
+	beeLogger "github.com/stefantalpalaru/bee/v2/logger"
 )
 
 // git tag

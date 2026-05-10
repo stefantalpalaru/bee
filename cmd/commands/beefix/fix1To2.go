@@ -18,7 +18,7 @@ import (
 	"os"
 	"os/exec"
 
-	beeLogger "github.com/beego/bee/v2/logger"
+	beeLogger "github.com/stefantalpalaru/bee/v2/logger"
 )
 
 func fix1To2() int {

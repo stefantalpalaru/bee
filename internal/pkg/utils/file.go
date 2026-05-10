@@ -3,7 +3,7 @@ package utils
 import (
 	"os"
 
-	beeLogger "github.com/beego/bee/v2/logger"
+	beeLogger "github.com/stefantalpalaru/bee/v2/logger"
 )
 
 // Mkdir ...

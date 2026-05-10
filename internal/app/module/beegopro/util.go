@@ -11,8 +11,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/beego/bee/v2/internal/pkg/utils"
-	beeLogger "github.com/beego/bee/v2/logger"
+	"github.com/stefantalpalaru/bee/v2/internal/pkg/utils"
+	beeLogger "github.com/stefantalpalaru/bee/v2/logger"
 )
 
 // write to file

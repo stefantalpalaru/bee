@@ -6,8 +6,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	beeLogger "github.com/beego/bee/v2/logger"
-	"github.com/beego/bee/v2/utils"
+	beeLogger "github.com/stefantalpalaru/bee/v2/logger"
+	"github.com/stefantalpalaru/bee/v2/utils"
 )
 
 var SQL utils.DocValue

@@ -3,7 +3,7 @@ package beegopro
 import (
 	"strings"
 
-	"github.com/beego/bee/v2/utils"
+	"github.com/stefantalpalaru/bee/v2/utils"
 )
 
 // parse get the model info
