@@ -1,4 +1,4 @@
-module github.com/beego/bee/v2
+module github.com/stefantalpalaru/bee/v2
 
 go 1.21
 
